@@ -1,11 +1,11 @@
-import { Box} from '@mui/system';
+import { Box} from '@chakra-ui/react';
 import {StyledCard} from './style';
 
 const Card = () => {
 
   return (
 
-  <Box sx={StyledCard} >    
+  <Box>    
     Card
   </Box>
 

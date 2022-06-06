@@ -1,11 +1,11 @@
-import { Box} from '@mui/system';
+import { Box} from '@chakra-ui/react';
 import {StyledLogo} from './style';
 
 
 const Logo = () => {
   
   return( 
-  <Box sx={StyledLogo}>
+  <Box>
         LOGO
   </Box>
   )

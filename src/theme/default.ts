@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material/styles';
+import { extendTheme} from '@chakra-ui/react'
 // import Image from '../assets/background.svg';
 
 
@@ -41,41 +41,8 @@ const appStyle = {
 
 }
 
-declare module '@mui/material/styles' {
-  interface BreakpointOverrides {
-    xs: false; // removes the `xs` breakpoint
-    sm: false;
-    md: false;
-    lg: false;
-    xl: false;
-    smobile: true,
-    lmobile: true,
-    tablet: true;
-    laptop: true;
-    desktop: true;
-  }
-}
-
-
-const theme = createTheme({
-    palette: {  
-      text: {
-        primary: '#173A5E',
-        secondary: '#46505A',
-      },
-      action: {
-        active: '#001E3C',
-      },
-    },
-    breakpoints: {
-      values: {
-        smobile: 0,
-        lmobile: 320,
-        tablet: 640,
-        laptop: 1024,
-        desktop: 1200,
-      },
-    },
+const theme = extendTheme({
+  
   });
 
 export {appStyle, theme}

@@ -1,11 +1,11 @@
-import { Box} from '@mui/system';
+import { Box} from '@chakra-ui/react';
 import {StyledMenu} from './style';
 
 
 const Menu = () => {
   
   return( 
-  <Box sx={StyledMenu}>
+  <Box >
     Menu
   </Box>
   )

@@ -1,4 +1,4 @@
-import { Box} from '@mui/system';
+import { Box} from '@chakra-ui/react';
 import {StyledHeader} from './style';
 import Logo from "../../components/Logo"; 
 import Menu from "../../components/Menu"; 

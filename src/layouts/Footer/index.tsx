@@ -1,4 +1,4 @@
-import { Box} from '@mui/system';
+import { Box} from '@chakra-ui/react';
 import {StyledFooter} from './style';
 
 
