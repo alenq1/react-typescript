@@ -1,17 +1,15 @@
-import Button from '@mui/material/Button';
 import {styledButton} from "./style"
 
 const ButtonApp = (props: any) => {
 
   
   return (
-    <Button 
-      sx={styledButton}
-      variant="contained" 
+    <button 
+      className={''}
       onClick={props.action}
     >
       {props.text}
-    </Button>
+    </button>
     )
 };
 

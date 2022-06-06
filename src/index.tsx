@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './components/App';
 import { store } from './store/store';
 import { Provider } from 'react-redux';
-import { ThemeProvider} from '@mui/material/styles'
+
 import { theme } from "./theme/default";
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom";
@@ -12,9 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <ThemeProvider theme={theme}>
+        
           <App />
-        </ThemeProvider>
+        
       </BrowserRouter>
     </Provider>    
   </React.StrictMode>

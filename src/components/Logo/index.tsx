@@ -1,13 +1,12 @@
-import { Box} from '@mui/system';
 import {StyledLogo} from './style';
 
 
 const Logo = () => {
   
   return( 
-  <Box sx={StyledLogo}>
+  <div className={''}>
         LOGO
-  </Box>
+  </div>
   )
   
 };

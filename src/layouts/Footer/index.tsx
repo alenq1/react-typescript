@@ -1,13 +1,12 @@
-import { Box} from '@mui/system';
 import {StyledFooter} from './style';
 
 
 const Footer = () => {
   return (
 
-  <Box sx={StyledFooter}>
+  <div className={''}>
     Footer
-  </Box>
+  </div>
   
   )
 };

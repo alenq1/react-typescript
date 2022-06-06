@@ -1,4 +1,4 @@
-import { Box} from '@mui/system';
+
 import Main from '../../layouts/Main'
 import {StyledMain} from './style';
 

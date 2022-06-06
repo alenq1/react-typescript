@@ -1,13 +1,13 @@
-import { Box} from '@mui/system';
+
 import {StyledMenu} from './style';
 
 
 const Menu = () => {
   
   return( 
-  <Box sx={StyledMenu}>
+  <div className={''}>
     Menu
-  </Box>
+  </div>
   )
   
 };
