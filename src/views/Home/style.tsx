@@ -1,5 +1,5 @@
 
-export const StyledMain = {
+export const StyledHome = {
   height: "auto",    
   display: "flex",
   alignItems: "center",

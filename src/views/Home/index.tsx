@@ -1,13 +1,14 @@
 import { Box} from '@chakra-ui/react';
-import {StyledMain} from './style';
+import {StyledHome} from './style';
+import Main from "../../layouts/Main";
 
 const Home = () => {
 
   return (
 
-  <Box sx={StyledMain} >    
+  <Main>    
     Content
-  </Box>
+  </Main>
 
   )
 };
