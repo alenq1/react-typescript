@@ -33,12 +33,27 @@ const appStyle = {
 /// ***********WITH IMAGE
 // backgroundImage: `url(${Image})`,
 
-// filter: "blur(1px)",  
   height: '100vh',
-  display: 'grid',  
-  gap: 1,
-  gridTemplateRows: 'auto 1fr auto',
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "flex-start",
+  padding: 0,
 
+}
+
+declare module '@mui/material/styles' {
+  interface BreakpointOverrides {
+    xs: false; // removes the `xs` breakpoint
+    sm: false;
+    md: false;
+    lg: false;
+    xl: false;
+    smobile: true,
+    lmobile: true,
+    tablet: true;
+    laptop: true;
+    desktop: true;
+  }
 }
 
 
@@ -50,6 +65,15 @@ const theme = createTheme({
       },
       action: {
         active: '#001E3C',
+      },
+    },
+    breakpoints: {
+      values: {
+        smobile: 0,
+        lmobile: 320,
+        tablet: 640,
+        laptop: 1024,
+        desktop: 1200,
       },
     },
   });

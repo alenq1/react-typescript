@@ -5,7 +5,8 @@ export const StyledHeader = {
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  padding: "1rem 1.5rem"
+  padding: "1rem 1.5rem",
+  flexShrink: 0
 
 }
 
