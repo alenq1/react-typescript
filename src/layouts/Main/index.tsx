@@ -3,12 +3,12 @@ import {StyledMain} from './style';
 import Card from "../../components/Card";
 
 
-const Main = () => {
+const Main = ({children}: any) => {
 
   return (
 
   <Box sx={StyledMain} >    
-    Content
+    {children}
   </Box>
 
   )

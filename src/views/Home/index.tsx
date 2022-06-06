@@ -1,13 +1,14 @@
 import { Box} from '@mui/system';
+import Main from '../../layouts/Main'
 import {StyledMain} from './style';
 
 const Home = () => {
 
   return (
 
-  <Box sx={StyledMain} >    
+  <Main>    
     Content
-  </Box>
+  </Main>
 
   )
 };
